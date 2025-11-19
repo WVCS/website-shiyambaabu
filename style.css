@@ -1,3 +1,40 @@
-body {
+@charset "utf-8";
 
+body {
+	background-color:antiquewhite;
+}
+
+img {
+	width: 400px;
+	border: 5px dotted black;
+	border-radius: 50%;
+}
+
+img:hover {
+	border: 5px dotted red;
+}
+
+h1 { 
+	color: red;
+	text-decoration: underline;
+}
+
+ul {
+	list-style-type: none;
+	background-color: lightcoral;
+	width: 200px;
+	margin: 0;
+	padding: 0;
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 8px 16px;
+}
+
+li a:hover{
+	background-color:white;
+	color: darksalmon
 }
